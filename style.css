@@ -1,0 +1,106 @@
+/* Genel */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fef6f9; /* pudra pembesi ton */
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #5150a5;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  .menu-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .menu-list a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main */
+  main h2 {
+    color: #573b89;
+    margin-bottom: 10px;
+  }
+  
+  main h3 {
+    color: #5b51a0;
+    margin-top: 30px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    margin: 20px 0;
+  }
+  
+  /* Card stil */
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.01);
+  }
+  
+  .card h4 a {
+    color: #604c98;
+    text-decoration: none;
+  }
+  
+  .card h4 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #210a4b;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 50px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .menu-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
